@@ -16,14 +16,7 @@ resource "aws_ecs_task_definition" "hello_world" {
     "image": "devopsmixtape/hello_world_docker:latest",
     "memory": 512,
     "name": "hello_world",
-    "networkMode": "awsvpc",
-    "portMappings": [
-      {
-        "hostPort": 8080,
-        "protocol": "tcp",
-        "containerPort": 8080
-      }
-    ]
+    "networkMode": "awsvpc"
   }
 ]
 DEFINITION

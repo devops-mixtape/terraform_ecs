@@ -1,6 +1,6 @@
 variable "container_image" {
   description = "Docker image to run in the ECS cluster"
-  default     = "devopsmixtape/hello_world_docker:latest"
+  default     = "673239712178.dkr.ecr.us-east-1.amazonaws.com/node_actions"
 }
 
 variable "container_count" {
